@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0 ;
+}
+
+/* ---- HEADER ---- */
+.header-container {
+  border: 1px solid black;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.header-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.my-times {
+  padding-left: 10px;
+  color: MediumAquamarine;
+}
+
+.header-nav a {
+  color: black;
+  margin-left: 35px; 
+}
