@@ -34,7 +34,7 @@
 
 /* ---- MAIN CONTAINER ---- */
 .main-container {
-  
+
 }
 
 .large-column {
@@ -64,4 +64,30 @@ p {
 
 .mother .img-text {
   font-size: 40px;
+}
+
+
+/* ---- LARGE COLUMN ---- */
+.large-column {
+
+}
+
+.mother-item {
+
+}
+
+.mother-header {
+  background-image: url('resources/images/main-story-img.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* ---- Orca & Burger Container ---- */
+
+.earth .img {
+  background-image: url('resources/images/earth-img.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
