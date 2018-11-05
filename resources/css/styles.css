@@ -32,62 +32,122 @@
   margin-left: 35px; 
 }
 
-/* ---- MAIN CONTAINER ---- */
-.main-container {
-
-}
-
-.large-column {
-  width: 630px;
-}
-
-.medium-column {
-  width: 300px;
-}
-
-.small-column {
-  width: 240px;
+/* ---- MAIN CONTENT CONTAINER ---- */
+.main-content-container {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  width: 100%;
 }
 
 p {
   font-family: Georgia;
   font-size: 17px;
-  color: black
+  color: black;
+  padding-top: 20px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .img-text {
+  color: green; /*white*/
+  text-align: center;
+}
+
+h2.img-text {
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
-  color: white;
 }
 
-.mother .img-text {
-  font-size: 40px;
-}
-
-
-/* ---- LARGE COLUMN ---- */
+/* ---- LEFT COLUMN ---- */
 .large-column {
-
+  width: 620px;
+  margin: 40px 20px 40px 20px;
 }
 
-.mother-item {
-
-}
-
-.mother-header {
-  background-image: url('resources/images/main-story-img.jpg');
+.mother-img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-/* ---- Orca & Burger Container ---- */
+.mother-img-text {
+  font-size: 40px;
+  color: green;
+}
 
-.earth .img {
-  background-image: url('resources/images/earth-img.jpg');
+.orca-burger-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.earth-img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
+
+.camera-img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.o-b-content {
+  padding-bottom: 30px;
+}
+
+/* ---- MIDDLE COLUMN ---- */
+.medium-column {
+  width: 300px;
+  margin-top: 40px;
+}
+
+.cats-item {
+  margin-top: 20px;
+}
+
+.cats-img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* ---- RIGHT COLUMN ---- */
+.small-column {
+  width: 240px;
+}
+
+.news-bites {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.news-bites-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.news-bites-nav {
+  margin: 40px 0 0 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: WhiteSmoke;
+}
+
+.nav-btn-side {
+  border-bottom: 1px solid black;
+  padding: 10px;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+}
+
+
+
+/* ---- FOOTER ---- */
