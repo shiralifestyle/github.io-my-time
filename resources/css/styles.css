@@ -52,12 +52,19 @@ a {
 }
 
 .img-text {
-  color: green; /*white*/
+  color: white;
   text-align: center;
   font-size: 30px;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
+}
+
+.img {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* ---- LEFT COLUMN ---- */
@@ -73,18 +80,23 @@ a {
 }
 
 h1 {
-  color: green;
+  color: white;
   font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
+  padding-left: 15px;
 }
 
 .orca-burger-container {
   display: flex;
   flex-direction: row;
   margin-top: 40px;
+  justify-content: space-between;
 }
 
+.orca-item {
+  margin-right: 20px;
+}
 .earth-img {
   background-repeat: no-repeat;
   background-position: center;
@@ -167,8 +179,6 @@ footer {
   color: white;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
 }
 
 .footer-nav a {
@@ -183,5 +193,6 @@ span {
 }
 
 .footer-copyright p {
-  font-size: 12px;
+  font-size: 11px;
+  justify-content: center;
 }
