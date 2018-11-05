@@ -31,3 +31,37 @@
   color: black;
   margin-left: 35px; 
 }
+
+/* ---- MAIN CONTAINER ---- */
+.main-container {
+  
+}
+
+.large-column {
+  width: 630px;
+}
+
+.medium-column {
+  width: 300px;
+}
+
+.small-column {
+  width: 240px;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black
+}
+
+.img-text {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.mother .img-text {
+  font-size: 40px;
+}
