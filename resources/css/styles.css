@@ -37,7 +37,7 @@
   display: flex;
   flex-direction: row;
   text-decoration: none;
-  width: 100%;
+  justify-content: center;
 }
 
 p {
@@ -54,9 +54,7 @@ a {
 .img-text {
   color: green; /*white*/
   text-align: center;
-}
-
-h2.img-text {
+  font-size: 30px;
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
@@ -65,7 +63,7 @@ h2.img-text {
 /* ---- LEFT COLUMN ---- */
 .large-column {
   width: 620px;
-  margin: 40px 20px 40px 20px;
+  margin: 40px 20px;
 }
 
 .mother-img {
@@ -74,9 +72,11 @@ h2.img-text {
   background-size: cover;
 }
 
-.mother-img-text {
-  font-size: 40px;
+h1 {
   color: green;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
 }
 
 .orca-burger-container {
@@ -148,6 +148,40 @@ h2.img-text {
   color: DimGray;
 }
 
-
-
 /* ---- FOOTER ---- */
+footer {
+  background-color: MediumAquamarine;
+  font-family: Verdana;
+  font-size: 12px;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.footer-logo {
+  font-family: Georgia;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-nav a {
+  text-decoration: underline;
+  color: black;
+  margin-left: 20px;
+  font-weight: normal;
+}
+
+span {
+  margin-left: 20px;
+}
+
+.footer-copyright p {
+  font-size: 12px;
+}
